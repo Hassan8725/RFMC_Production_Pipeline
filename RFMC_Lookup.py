@@ -208,7 +208,7 @@ engine.execute(t)
 
 RFMC_data.to_sql('rfmc_lookup', con=engine, if_exists='append')
 
-print("Data Transferred to MySQL AI Server\n")
+print("Data Transferred to MySQL Server\n")
 
 print("\nTaken taken for the whole process: ",dt.datetime.now()-process_start)
 
